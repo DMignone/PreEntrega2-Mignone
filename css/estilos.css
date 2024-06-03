@@ -1,0 +1,16 @@
+@import "../scss/utilities/variable";
+@import "../scss/utilities/mixin";
+@import "../scss/utilities/extend";
+@import "../scss/utilities/reset";
+@import "../scss/utilities/global";
+
+@import "../scss/components/header";
+@import "../scss/pages-main/main-index";
+@import "../scss/pages-main/main-natural";
+@import "../scss/pages-main/main-sintetico";
+@import "../scss/pages-main/main-clasesytalleres";
+@import "../scss/pages-main/main-contacto";
+@import "../scss/components/footer";
+
+@import "../scss/utilities/media-querie";
+/*# sourceMappingURL=estilos.css.map */
