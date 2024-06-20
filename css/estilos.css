@@ -55,10 +55,13 @@ section h2 {
 .tarjeta-padre .tarjeta-nuevo {
   text-align: center;
   padding: 0;
-  transition: padding 3ms;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 2ms;
 }
 .tarjeta-padre .tarjeta-nuevo:hover {
-  padding: 5px;
+  transform: scale(1.5);
 }
 .tarjeta-padre .tarjeta-nuevo p {
   margin-bottom: 0;
