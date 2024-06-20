@@ -51,6 +51,10 @@ nav.navbar-desktop {
     display: block;
 }
 
+nav a .img-thumbnail {
+    max-width: 20%;
+}
+
 .nav-flex {
     list-style: none;
     @include flex(center, inherit, wrap);
@@ -58,7 +62,6 @@ nav.navbar-desktop {
 
 .nav-bar {
     font-size: 105%;
-    border-top: $border-top;
     padding: 1% 0%;
 
     .nav {
@@ -74,4 +77,8 @@ nav.navbar-desktop {
             }
         }
     }
+}
+
+.top-line {
+    border-top: $border-top;
 }

@@ -6,6 +6,10 @@ body {
     }
 }
 
+.img-width {
+    width: 20% !important;
+}
+
 //Banners
 .img-centrado {
     text-align: center;
@@ -13,7 +17,6 @@ body {
     .banner-tamaño {
         width: 45%;
         height: auto;
-        margin-top: 0.5%;
     }
 }
 
@@ -53,4 +56,8 @@ section h2 {
 header,
 footer {
     background-color: $fondo-header-footer;
+}
+
+.icon {
+    color: black;
 }

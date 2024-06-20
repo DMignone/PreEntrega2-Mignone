@@ -1,3 +1,7 @@
 .color-whatsapp {
     color: $verde-wp;
 }
+
+.form-control:focus {
+    @extend %input;
+}

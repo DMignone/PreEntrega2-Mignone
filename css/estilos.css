@@ -10,7 +10,7 @@
   border-radius: 5%;
 }
 
-.search input:focus {
+.form-control:focus, .search input:focus {
   box-shadow: 0 0 0 0.25rem rgba(149, 63, 112, 0.5333333333);
   border: #953f70;
 }
@@ -27,13 +27,16 @@ body a {
   color: #953f70;
 }
 
+.img-width {
+  width: 20% !important;
+}
+
 .img-centrado {
   text-align: center;
 }
 .img-centrado .banner-tamaño {
   width: 45%;
   height: auto;
-  margin-top: 0.5%;
 }
 
 h1 {
@@ -64,6 +67,10 @@ section h2 {
 header,
 footer {
   background-color: #a69db4;
+}
+
+.icon {
+  color: black;
 }
 
 .header-grid {
@@ -119,6 +126,10 @@ nav.navbar-desktop {
   display: block;
 }
 
+nav a .img-thumbnail {
+  max-width: 20%;
+}
+
 .nav-flex {
   list-style: none;
   display: flex;
@@ -129,7 +140,6 @@ nav.navbar-desktop {
 
 .nav-bar {
   font-size: 105%;
-  border-top: 2px solid rgba(149, 63, 112, 0.3529411765);
   padding: 1% 0%;
 }
 .nav-bar .nav li {
@@ -140,6 +150,14 @@ nav.navbar-desktop {
 }
 .nav-bar .nav li a:hover {
   color: #f8f8ff;
+}
+
+.top-line {
+  border-top: 2px solid rgba(149, 63, 112, 0.3529411765);
+}
+
+.adjust-footer {
+  margin: 3% auto;
 }
 
 .color-whatsapp {
@@ -158,6 +176,9 @@ nav.navbar-desktop {
   }
   nav.navbar-tablet-mobile {
     display: block;
+  }
+  #carouselSlidesOnly {
+    display: none;
   }
 }
 .tarjeta-nuevo:active {

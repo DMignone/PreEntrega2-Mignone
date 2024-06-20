@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hilados Arachne</title>
+    <meta
+        description="¡Descubre la magia de tejer con hilados suaves al tacto, de colores vibrantes y respetuosos con el medio ambiente!">
+    <meta keywords="lana, ovillo, tejido, clases, talleres, aprender, crochet, dos agujas, amigurumi, hobby, hilados">
+    <title>Hilados Arachne - Sección de contacto</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="../img/favicon.ico.png" type="image/x-icon">
     <!--Font Awesome-->
@@ -18,28 +21,29 @@
 
 <body class="position-relative">
     <!--Header-->
-    <header id="arriba" class="fondo-header-footer ">
-        <div class="header-grid">
-            <!--Buscador-->
-            <div class="search container-flex d-flex justify-content-start">
-                <form action="">
-                    <input class="form-control input search" type="search" name="buscador" id="buscador"
-                        placeholder="Ingrese su búsqueda">
-                    <input type="submit" value="Buscar">
-                </form>
-            </div>
-            <!--Logo-->
-            <div class="logo">
-                <a href="../index.html"><img class="logo-img" src="../img/arachne-circle-2.png"
-                        alt="Logo Hilados Arachne"></a>
-            </div>
-            <div class="login container-flex d-flex justify-content-end">
-                <p><a href="#">CREAR CUENTA</a> | <a href="#">INICIAR SESIÓN</a></p>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div>
-        </div>
+    <header id="arriba" class="fondo-header-footer">
+        <!--Desktop-->
         <nav class="nav-bar navbar-desktop">
-            <ul class="nav-flex nav">
+            <div class="header-grid">
+                <!--Buscador-->
+                <div class="search container-flex d-flex justify-content-start">
+                    <form action="">
+                        <input class="form-control input search" type="search" name="buscador" id="buscador"
+                            placeholder="Ingrese su búsqueda">
+                        <input type="submit" value="Buscar">
+                    </form>
+                </div>
+                <!--Logo-->
+                <div class="logo pb-3">
+                    <a href="./index.html"><img class="logo-img" src="../img/arachne-circle-2.png"
+                            alt="Logo Hilados Arachne"></a>
+                </div>
+                <div class="login container-flex d-flex justify-content-end">
+                    <p><a href="#">CREAR CUENTA</a> | <a href="#">INICIAR SESIÓN</a></p>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </div>
+            <ul class="nav-flex nav top-line">
                 <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="./natural.html">Hilados Naturales</a></li>
                 <li class="nav-item"><a class="nav-link" href="./sintetico.html">Hilados Sintéticos</a></li>
@@ -47,31 +51,81 @@
                 <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
             </ul>
         </nav>
+        <!--Mobile -->
+        <nav class="navbar navbar-tablet-mobile col-12">
+            <div class=" container-fluid col-12">
+                <div>&nbsp;</div>
+                <a class="navbar-brand col-9" href=" #"><img width="20%" src="../img/arachne-circle-2.png"
+                        alt="logo arachne tejidos"></a>
 
-        <nav class="dropdown navbar-tablet-mobile">
-            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Menú
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="../index.html">Inicio</a></li>
-                <li><a class="dropdown-item" href="./natural.html">Hilados Naturales</a></li>
-                <li><a class=" dropdown-item" href="./sintetico.html">Hilados Sintéticos</a></li>
-                <li><a class="dropdown-item" href="./clasesytalleres.html">Clases y Talleres</a></li>
-                <li><a class="dropdown-item" href="#">Contacto</a></li>
-            </ul>
+                <button class="navbar-toggler col-2" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Arachne Tejidos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./natural.html">Hilados Naturales </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./sintetico.html">Hilados Sintéticos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./clasesytalleres.html">Clases y Talleres</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Contacto</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    <i class="fa-regular fa-user"></i> Cuenta
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"></a></li>
+                                    <li><a class="dropdown-item" href="#">Iniciar sesión</a></li>
+                                    <li><a class="dropdown-item" href="#">Crear cuenta</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    Carrito
+                                </a>
+                            </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Escriba aquí"
+                                aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
     <!--fin Header-->
 
     <!--Main-->
-    <main class="fondo-main" class="container">
-        <div class="row">
+    <main class="fondo-main container adjust-footer">
+        <div class="row me-0">
             <section class="col-12 col-sm-12 col-md-12 col-lg-6 mt-3">
-                <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, expedita.
-                    Obcaecati ab dolores quam! Pariatur cumque voluptas labore modi animi
-                    provident, ullam nulla quod fugiat, quibusdam molestiae voluptatibus
-                    iusto velit!</p>
+                <p class="ms-3">¡Descubrí un mundo de colores y texturas en nuestro local! Invitamos a tejedores de
+                    todas las habilidades a explorar nuestra variedad y calidad. ¡Encontrá inspiración y materiales
+                    perfectos para tus creaciones! Contactanos por los siguientes medios o visitanos.</p>
                 <div class="d-flex justify-content-start">
                     <img class="m-3" src="../img/icon-whastapp.png" alt="Número de contacto">
                     <p class="m-0 d-flex align-items-center">011 1585905208</p>
@@ -84,7 +138,7 @@
                     <img class="m-3" src="../img/icon-pin.png" alt="Ubicación">
                     <p class="m-0 d-flex align-items-center">Avenida Siempreviva 742</p>
                 </div>
-                <iframe class="m-4 img-fluid"
+                <iframe class="img-fluid"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.299562962838!2d-63.70527792369298!3d-29.507626306592698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9430516185dd4291%3A0x1184cdf93f733519!2sAv.%20Siempreviva%2C%20Villa%20Ojo%20de%20Agua%2C%20Santiago%20del%20Estero%2C%20Argentina!5e0!3m2!1ses!2sus!4v1713636723378!5m2!1ses!2sus"
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -114,12 +168,12 @@
         <div class="row p-3">
             <ul
                 class="social-media col-12 col-sm-12 col-md-12 col-lg-4 list-unstyled list-group list-group-horizontal d-flex justify-content-center">
-                <li class="p-3"><a href="https://www.facebook.com/" target="_blank"><i
-                            class="fa-brands fa-square-facebook fa-2xl" style="color: #000000;"></i></a></li>
-                <li class="p-3"><a href="https://www.instagram.com/" target="_blank"><i
-                            class="fa-brands fa-square-instagram fa-2xl" style="color: #000000;"></i></a></li>
-                <li class="p-3"><a href="https://www.pinterest.com/" target="_blank"><i
-                            class="fa-brands fa-square-pinterest fa-2xl" style="color: #000000;"></i></a></li>
+                <li class="p-3"><a class="icon" href="https://www.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-square-facebook fa-2xl" alt="icono de facebook"></i></a></li>
+                <li class="p-3"><a class="icon" href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-square-instagram fa-2xl" alt="icono de instagram"></i></a></li>
+                <li class="p-3"><a class="icon" href="https://www.pinterest.com/" target="_blank"><i
+                            class="fa-brands fa-square-pinterest fa-2xl" alt="icono de pinterest"></i></a></li>
             </ul>
             <!--Copyright-->
             <p class="copyright col-12 col-sm-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-end">
@@ -133,8 +187,9 @@
                 class="newsletter col-12 col-sm-12 col-md-12 col-lg-4 d-flex flex-column justify-content-center align-items-center"
                 action="" method="">
                 <label for="suscripcion">¡Suscribite!</label><br>
-                <div>
-                    <input type="email" name="suscripcion" id="suscripcion" placeholder="Ingresá tu email">
+                <div class="d-flex">
+                    <input class="form-control input search" type="email" name="suscripcion" id="suscripcion"
+                        placeholder="Ingresá tu email">
                     <input type="submit" value="Enviar">
                 </div>
             </form>
@@ -148,7 +203,7 @@
         </div>
 
         <!-- flecha arriba -->
-        <div class="position-relative p-2 bottom-0 start-2">
+        <div class="position-fixed p-2 bottom-0 start-2">
             <a href="#arriba"><i class="fa-solid fa-arrow-up-long fa-xl"></i></a>
         </div>
     </footer>
